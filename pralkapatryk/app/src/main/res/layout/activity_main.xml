@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/Main"
+    android:background="#ADD8E6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:text="urzondzenie domofe"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:text="Autor: Patryk S" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/pralka"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pralka"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etNrPrania"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#87CEEB"
+                android:hint="Podaj nr prania 1..12"
+                android:textColorHint="#000080"
+                android:textColor="#000080"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btnZatwierdz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#4169E1"
+                android:text="Zatwierdź" />
+
+            <TextView
+                android:id="@+id/tvWynikPralka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Numer prania: nie podano" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/odkurzacz"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Odkurzacz"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnOdkurzacz"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:layout_margin="10dp"
+                android:backgroundTint="#4169E1"
+                android:text="Włącz" />
+
+            <TextView
+                android:id="@+id/tvStanOdkurzacza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Odkurzacz wyłączony" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status: naładowany" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
