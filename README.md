@@ -1,4 +1,4 @@
-# 🧺 Urządzenia domowe – Pralka i Odkurzacz (Android Studio)
+# Aplikacja pralka
 
 Alikacja na Androida, która pokazuje dwa **urządzenia domowe**: **pralkę** i **odkurzacz**. W pralce wpisujesz numer prania, a odkurzaczem możesz sterować przyciskiem **Włącz / Wyłącz**.
 
